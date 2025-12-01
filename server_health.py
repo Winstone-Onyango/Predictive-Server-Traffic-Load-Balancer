@@ -1,7 +1,7 @@
 import json
 import random
 from datetime import datetime
-
+#Created a class to monitor server health and predict overload risks.
 class ServerHealthMonitor:
     def __init__(self):
         with open('config.json', 'r') as f:
