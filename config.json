@@ -1,0 +1,15 @@
+{
+    "servers": [
+        "server1",
+        "server2",
+        "server3",
+        "server4"
+    ],
+    "prediction_interval": 60,
+    "overload_thresholds": {
+        "cpu_usage": 0.8,
+        "memory_usage": 0.85,
+        "response_time": 2.0,
+        "error_rate": 0.1
+    }
+}
